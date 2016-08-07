@@ -1,0 +1,5 @@
+block-face:
+  version: 1.x
+  css:
+    theme:
+      css/block-face.css: {}

@@ -1,0 +1,5 @@
+route_example.hello_world:
+  route_name: route_example.hello_world
+  title: 'HW'
+  appears_on:
+    - route_example.user_data

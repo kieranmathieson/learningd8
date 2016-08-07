@@ -1,0 +1,10 @@
+mymodule.list_tab:
+  route_name: mymodule.list
+  title: 'List'
+  base_route: mymodule.list
+
+mymodule.settings_tab:
+  route_name: mymodule.settings
+  title: 'Settings'
+  base_route: mymodule.list
+

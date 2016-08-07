@@ -1,0 +1,46 @@
+route_example.hello_world:
+  path: '/hello-world'
+  defaults:
+    _controller: '\Drupal\route_example\Controller\RouteExampleController::helloWorld'
+    _title: 'Hello world!'
+  requirements:
+    _permission: 'access content'
+route_example.hello_user:
+  path: '/hello-user'
+  defaults:
+    _controller: '\Drupal\route_example\Controller\RouteExampleController::helloUser'
+    _title_callback: '\Drupal\route_example\Controller\RouteExampleController::helloUserTitle'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: true
+route_example.user_data:
+  path: '/user-info/{user}'
+  defaults:
+    _controller: '\Drupal\route_example\Controller\RouteExampleController::userInfo'
+    _title_callback: '\Drupal\route_example\Controller\RouteExampleController::userInfoTitle'
+  requirements:
+    _custom_access: '\Drupal\route_example\Controller\RouteExampleController::userInfoAccess'
+
+route_example.node_list:
+  path: '/node-list/{type}/{limit}'
+  defaults:
+    _controller: '\Drupal\route_example\Controller\RouteExampleController::nodeList'
+    _title: 'Node List'
+    limit: 10
+    type: all
+  requirements:
+    _permission: 'access content'
+route_example.node_compare:
+  path: '/node-compare/{node1}/{node2}'
+  defaults:
+    _controller: '\Drupal\route_example\Controller\RouteExampleController::nodeCompare'
+    _title: 'Node Compare'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      node1:
+        type: entity:node
+      node2:
+        type: entity:node

@@ -1,0 +1,5 @@
+name: 'Block face'
+type: module
+description: 'Make a block.'
+package: 'Example modules'
+core: 8.x

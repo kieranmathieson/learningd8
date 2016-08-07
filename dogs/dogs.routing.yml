@@ -1,0 +1,24 @@
+
+dogs.default_controller_hello:
+  path: '/dogs/hello/{name}'
+  defaults:
+    _controller: '\Drupal\dogs\Controller\DefaultController::hello'
+    _title: 'Dogs controller'
+  requirements:
+    _permission: 'access content'
+
+dogs.default_controller_eval_number:
+  path: '/dogs/number/{number}'
+  defaults:
+    _controller: '\Drupal\dogs\Controller\DefaultController::evalNumberDogs'
+    _title: 'Number of dogs'
+  requirements:
+    _permission: 'access content'
+
+dogs.make_dogs:
+  path: '/dogs/make'
+  defaults:
+    _controller: '\Drupal\dogs\Controller\DefaultController::makeDogs'
+    _title: 'Make some dogs'
+  requirements:
+    _permission: 'administer content'

@@ -1,0 +1,6 @@
+name: Ck Dogs1
+type: module
+description: 'Insert a dog into your content.'
+package: CKEditor
+version: '8.x-1.0'
+core: '8.x'

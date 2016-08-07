@@ -1,0 +1,5 @@
+name: 'My test module'
+type: module
+description: 'Acquia webinar demo.'
+core: 8.x
+

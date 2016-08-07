@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_plugin_message_info_alter().
+ */
+function plugin_message_plugin_message_info_alter(&$definitions) {
+  // Uncomment this and clear cache if you want to see how we can swap plugin classes.
+  //$definitions['blue_violets']['class'] = 'Drupal\plugin_message\Plugin\Message\RedRoses';
+}

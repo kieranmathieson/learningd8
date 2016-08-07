@@ -1,0 +1,6 @@
+name: 'Route example'
+type: module
+description: 'Routy route.'
+package: 'Training'
+version: '8.x-1.0'
+core: 8.x

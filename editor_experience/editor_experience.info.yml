@@ -1,0 +1,5 @@
+name: editor_experience
+type: module
+description: This is not here.
+core: 8.x
+package: Custom

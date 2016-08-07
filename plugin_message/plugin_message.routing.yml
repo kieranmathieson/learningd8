@@ -1,0 +1,7 @@
+plugin_message.configure:
+  path: '/admin/config/development/plugin_message'
+  defaults:
+    _form: '\Drupal\plugin_message\MessageSettingsForm'
+    _title: 'Plugin Message'
+  requirements:
+    _permission: 'administer plugin_message'

@@ -1,0 +1,7 @@
+name: dogs
+type: module
+description: This is about dogs.
+core: 8.x
+package: Custom
+dependencies:
+  - token

@@ -1,0 +1,6 @@
+services:
+  plugin.manager.plugin_message:
+    class: Drupal\plugin_message\MessageManager
+    parent: default_plugin_manager
+    tags:
+      - {name: event_subscriber}

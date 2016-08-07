@@ -1,0 +1,5 @@
+services:
+  mymodule.breadcrumb:
+    class: 'Drupal\mymodule\Breadcrumb\BreadcrumbManager'
+    tags:
+      - { name: breadcrumb_builder, priority: -1000 }

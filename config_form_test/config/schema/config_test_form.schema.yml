@@ -1,0 +1,7 @@
+config_form_test.dog:
+  type: config_object
+  label: 'Your dog'
+  mapping:
+    dog_name:
+      type: string
+      label: 'Dog name'

@@ -1,0 +1,15 @@
+mymodule.list:
+  path: '/admin/config/mymodule/list'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\MyController::dolist'
+    _title: 'Mymodule list'
+  requirements:
+    _access: 'TRUE'
+
+mymodule.settings:
+  path: '/admin/config/also-mymodule/settings'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\MyController::settings'
+    _title: 'Mymodule settings'
+  requirements:
+    _access: 'TRUE'

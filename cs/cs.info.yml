@@ -1,0 +1,7 @@
+name: CS
+type: module
+description: 'A module with a CK plugin.'
+package: Custom
+core: 8.x
+dependencies:
+  - ckeditor

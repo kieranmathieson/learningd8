@@ -1,0 +1,7 @@
+config_form_test:
+  path: '/config-form-test'
+  defaults:
+    _title: 'Example form'
+    _form: '\Drupal\config_form_test\Form\ConfigFormTest'
+  requirements:
+    _access: 'TRUE'

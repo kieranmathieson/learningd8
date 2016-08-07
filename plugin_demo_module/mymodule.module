@@ -1,0 +1,10 @@
+<?php
+
+/**
+ *  Implements hook_local_tasks_alter().
+ */
+function mymodule_local_tasks_alter(&$defs) {
+  if (isset($defs['user.view'])) {
+    $defs['user.view']['class'] = 'Drupal\mymodule\Menu\LocalTask';
+  }
+}

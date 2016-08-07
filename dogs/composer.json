@@ -1,0 +1,14 @@
+{
+  "name": "drupal/dogs",
+  "type": "drupal-module",
+  "description": "This is about dogs.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/dogs",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/dogs",
+    "source": "http://cgit.drupalcode.org/dogs"
+  },
+  "require": { }
+}

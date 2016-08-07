@@ -1,0 +1,24 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: kieran
+ * Date: 7/23/16
+ * Time: 2:29 PM
+ */
+
+use Drupal\Core\StringTranslation\TranslatableMarkup as TranslatableMarkup;
+
+function route_example_menu_links_discovered_alter(&$links) {
+  //ksm($links);
+  $links['system.admin_config_development']['title'] = t('Develop Dog');
+
+}
+
+function route_example_menu_local_actions_alter(&$local_actions) {
+  $local_actions['node.add_page']['title'] = t('Add a node, dawg');
+}
+
+function route_example_menu_local_tasks_alter(&$data, $route_name) {
+  $data['tabs'][0]['user.login']['#link']['title'] = t('Enter the kingdom');
+}
+
