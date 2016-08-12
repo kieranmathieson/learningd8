@@ -1,0 +1,5 @@
+widgettest:
+  version: 1.x
+  css:
+    theme:
+      js/plugins/widgettest/css/base.css: {}

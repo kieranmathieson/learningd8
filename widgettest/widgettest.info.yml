@@ -1,0 +1,9 @@
+name: Widget test
+type: module
+description: 'Testu.'
+package: Other
+core: 8.x
+dependencies:
+  - ckeditor
+libraries:
+  - widgettest/widgettest
