@@ -1,0 +1,24 @@
+
+h1.h1:
+  path: '/h1/h1'
+  defaults:
+    _controller: '\Drupal\h1\Controller\H1Controller::h1'
+    _title: 'H1 controller'
+  requirements:
+    _permission: 'access content'
+
+h1.h2:
+  path: '/h1/h2'
+  defaults:
+    _controller: '\Drupal\h1\Controller\H1Controller::h2'
+    _title: 'H2 controller'
+  requirements:
+    _permission: 'access content'
+
+h1.h3:
+  path: '/h1/h3'
+  defaults:
+    _controller: '\Drupal\h1\Controller\H1Controller::h3'
+    _title: 'H2 controller'
+  requirements:
+    _permission: 'access content'
