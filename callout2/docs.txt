@@ -1,0 +1,12 @@
+Storage:
+
+<div data-chunk-type="callout" data-extra="DOG">
+Content
+</div>
+
+
+Display:
+
+<div class="callout" data-extra="DOG">
+  DOG <div class="callout-content">Content</div>DOG
+</div>

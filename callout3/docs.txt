@@ -1,0 +1,24 @@
+Storage:
+
+<div data-chunk-type="callout3" data-extra="DOG">
+Content
+</div>
+
+
+Edit:
+
+<div class="callout3" data-extra="DOG">
+  <div class='callout3-extra'>DOG</div>
+  <div class="callout3-content">Content</div>DOG
+  <div class='callout3-extra'>DOG</div>
+</div>
+
+Display:
+
+<div class="callout3" data-extra="DOG">
+  <div class='callout3-extra'>More DOG</div>
+  <div class="callout3-content">Content</div>DOG
+  <div class='callout3-extra'>Even more DOG</div>
+</div>
+
+

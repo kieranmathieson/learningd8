@@ -1,0 +1,6 @@
+name: Callout
+type: module
+description: 'Insert num nums into your content.'
+package: CKEditor
+version: '8.x-1.0'
+core: '8.x'
