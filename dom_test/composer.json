@@ -1,0 +1,14 @@
+{
+  "name": "drupal/dom_test",
+  "type": "drupal-module",
+  "description": "Test PHP DOM manipulation.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/dom_test",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/dom_test",
+    "source": "http://cgit.drupalcode.org/dom_test"
+  },
+  "require": { }
+}
