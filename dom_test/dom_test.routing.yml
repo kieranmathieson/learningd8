@@ -1,0 +1,15 @@
+
+dom_test.default_controller_t1:
+  path: '/dom_test/t1'
+  defaults:
+    _controller: '\Drupal\dom_test\Controller\DefaultController::t1'
+    _title: 'T1'
+  requirements:
+    _permission: 'access content'
+dom_test.default_controller_t2:
+  path: '/dom_test/t2'
+  defaults:
+    _controller: '\Drupal\dom_test\Controller\DefaultController::t2'
+    _title: 'T2'
+  requirements:
+    _permission: 'access content'
